@@ -14,6 +14,9 @@ public class GoogleTest {
         $("#L2AGLb").click();
         $("textarea").setValue("kek").submit();
         $(".hlcw0c").shouldHave(Condition.text("kek"));
+        String name = System.getProperty("name","nety");
+        String cat = System.getProperty("cat","cat1");
+        System.out.println(name + " " + cat);
     }
 
 
